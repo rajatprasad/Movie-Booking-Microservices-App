@@ -1,0 +1,10 @@
+
+api-gateway/node_modules/
+auth-service/node_modules/
+booking-service/node_modules/
+movie-service/node_modules/
+
+api-gateway/.env
+auth-service/.env
+booking-service/.env
+movie-service/.env
