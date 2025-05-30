@@ -8,3 +8,5 @@ api-gateway/.env
 auth-service/.env
 booking-service/.env
 movie-service/.env
+
+api-gateway/.DS_store
