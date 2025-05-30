@@ -58,23 +58,23 @@ This project follows a microservices architecture, separating business concerns 
 
 ## 📬 API Overview
 Auth
-POST /v1/signup — Create user
+POST /signup — Create user
 
-POST /v1/login — Login and get token
+POST /login — Login and get token
 
 Movies
-GET /v1/movies — List all movies
+GET /movies — List all movies
 
-GET /v1/movies/:id — Get single movie
+GET /movies/:id — Get single movie
 
-POST /v1/movies — Add a new movie
+POST /movies — Add a new movie
 
 Booking
-POST /v1/bookings — Book tickets (requires JWT)
+POST /bookings — Book tickets (requires JWT)
 
-POST /v1/bookings/:id/cancel — Cancel a booking
+POST /bookings/:id/cancel — Cancel a booking
 
-(All routes go through the API Gateway with /api prefix.)
+(All routes go through the API Gateway with /v1 prefix.)
 
 ## 🔒 Authentication Flow
 Users sign up or log in to get a JWT token.
