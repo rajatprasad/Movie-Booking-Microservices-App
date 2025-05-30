@@ -35,13 +35,13 @@ This project follows a microservices architecture, separating business concerns 
 
 ## 🗂 Project Structure
 
-root/
-├── api-gateway/
-├── auth-service/
-├── movie-service/
-├── booking-service/
-├── shared/ # Common utilities (e.g. RabbitMQ, Redis)
-└── README.md
+- root/
+- ├── api-gateway/
+- ├── auth-service/
+- ├── movie-service/
+- ├── booking-service/
+- ├── shared/ # Common utilities (e.g. RabbitMQ, Redis)
+- └── README.md
 
 ---
 
