@@ -82,3 +82,5 @@ Users sign up or log in to get a JWT token.
 API Gateway validates JWT on protected routes.
 
 User ID is injected via x-user-id header to booking service.
+
+-----
